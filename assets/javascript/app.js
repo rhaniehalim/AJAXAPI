@@ -29,6 +29,7 @@ function getData(searchterm) {
             var animated = response.data[i].images.fixed_height.url;
 
 
+            
             var rating = response.data[i].rating;
             var containerRating = $("<p>").text("Rating: " + rating);
             var newImage = $("<img>");
